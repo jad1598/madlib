@@ -66,6 +66,7 @@ class FunnyStory : AppCompatActivity() {
     fun display (adjective1: String,adjective2 : String,pronoun1 : String,noun1 :String,noun2:String,pluralNoun1:String,
                  adverb1:String ,verb1: String ,adjective3 : String,pluralNoun2: String){
 
+        val funny_madlib = findViewById<View>(R.id.funny_madlib_label) as TextView
         val textView = findViewById<View>(R.id.textView) as TextView
         val textView2 = findViewById<View>(R.id.textView2) as TextView
         val textView3 = findViewById<View>(R.id.textView3) as TextView
@@ -74,6 +75,7 @@ class FunnyStory : AppCompatActivity() {
         val textView6 = findViewById<View>(R.id.textView6) as TextView
         val textView7 = findViewById<View>(R.id.textView7) as TextView
 
+        funny_madlib.text = "Your Funny MadLib"
         textView.text = " " + adjective1 + " teachers always give out " + adjective2 + " assignments" +"."
         textView2.text =" But as everyone knows, if you want to pass all " + pronoun1 + " classes, you can go to a/an " + noun1+
                 " and become president of a big International "+ noun2 + "."

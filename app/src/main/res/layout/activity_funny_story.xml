@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FunnyStory">
+    tools:context=".FunnyStory"
+    android:background="">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,6 +17,7 @@
             android:layout_width="142dp"
             android:layout_height="40dp"
             android:text="Funny Story"
+            android:textColor="#000000"
             android:textSize="25sp" />
 
         <ScrollView
@@ -114,6 +116,15 @@
                     android:layout_height="wrap_content"
                     android:onClick="submit"
                     android:text="@string/submit" />
+
+                <TextView
+                    android:id="@+id/funny_madlib_label"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp" />
 
                 <TextView
                     android:id="@+id/textView"
