@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFBD69"
+    android:background="#FFEFD5"
     tools:context=".MainActivity">
 
 
@@ -12,10 +12,10 @@
         android:id="@+id/select_madlib_title"
         android:layout_width="match_parent"
         android:layout_height="107dp"
-        android:background="#FF6B62"
+        android:background="#ffb6c1"
         android:gravity="center"
         android:text="@string/select_your_madlib"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -29,6 +29,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#8C98FF"
+        android:textColor="@android:color/white"
         android:onClick="goToScary"
         android:text="@string/scary"
         android:textSize="18sp"
@@ -44,6 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#E87774"
+        android:textColor="@android:color/white"
         android:onClick="goToFunny"
         android:text="@string/funny"
         android:textSize="18sp"

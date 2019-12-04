@@ -1254,6 +1254,7 @@ id right_side
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
+id scary_madlib_label
 id scary_story
 id scary_story_title
 id screen
