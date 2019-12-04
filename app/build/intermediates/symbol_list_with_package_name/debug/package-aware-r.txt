@@ -1082,6 +1082,8 @@ id META
 id SHIFT
 id SS_editText1
 id SS_editText10
+id SS_editText11
+id SS_editText12
 id SS_editText2
 id SS_editText3
 id SS_editText4
@@ -1308,12 +1310,17 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView10
+id textView11
+id textView12
 id textView2
 id textView3
 id textView4
 id textView5
 id textView6
 id textView7
+id textView8
+id textView9
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
