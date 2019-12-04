@@ -25,12 +25,12 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <EditText
                     android:id="@+id/SS_editText1"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:layout_marginTop="24dp"
                     android:ems="10"
                     android:hint="Enter Pronoun"
@@ -38,72 +38,72 @@
 
                 <EditText
                     android:id="@+id/SS_editText2"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter "
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText3"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText4"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText5"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText6"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText7"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText8"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText9"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
 
                 <EditText
                     android:id="@+id/SS_editText10"
-                    android:layout_width="335dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="330dp"
+                    android:layout_height="67dp"
                     android:ems="10"
                     android:hint="Enter"
                     android:inputType="textPersonName" />
@@ -115,6 +115,7 @@
                     android:text="@string/submit" />
             </LinearLayout>
         </ScrollView>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
