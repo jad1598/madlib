@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CS399 Mad Libs</string>
+    <string name="app_name">MadLibs</string>
     <string name="select_your_madlib">Select Your MadLib</string>
     <string name="scary">Scary</string>
     <string name="scary_story">Scary Story</string>

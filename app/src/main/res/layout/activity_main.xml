@@ -10,21 +10,25 @@
 
     <TextView
         android:id="@+id/select_madlib_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:background="#FF6B62"
+        android:gravity="center"
         android:text="@string/select_your_madlib"
         android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.205" />
+        app:layout_constraintVertical_bias="0.29" />
 
     <Button
         android:id="@+id/scary_story"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#8C98FF"
         android:onClick="goToScary"
         android:text="@string/scary"
         android:textSize="18sp"
@@ -39,6 +43,7 @@
         android:id="@+id/funny_story"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#E87774"
         android:onClick="goToFunny"
         android:text="@string/funny"
         android:textSize="18sp"

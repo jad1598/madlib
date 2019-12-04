@@ -70,19 +70,21 @@ class ScaryStory : AppCompatActivity() {
                 verbing2:String, pluralNoun1:String,verbing3:String){
 
 
+        val scary_madlib_label = findViewById<View>(R.id.scary_madlib_label) as TextView
         val textView5 = findViewById<View>(R.id.textView8) as TextView
         val textView6 = findViewById<View>(R.id.textView9) as TextView
         val textView7 = findViewById<View>(R.id.textView10) as TextView
         val textView8 = findViewById<View>(R.id.textView11) as TextView
         val textView9 = findViewById<View>(R.id.textView12) as TextView
 
-        textView5.text = " They say my school is haunted; my " + adjective1 + " friend "+personName1 +
-                "says she saw a "+ adjective2 + " "+ noun1 + "floating at the end of the hall near the cafeteria. "
-        textView6.text = "Some say if you " + verb1 + "down that hallway at night, you'll hear a "+animalName1+" "+ verbing1 +
+        scary_madlib_label.text = "Your Scary MadLib"
+        textView5.text = " They say my school is haunted; my " + adjective1 + " friend " +personName1 +
+                " says she saw a "+ adjective2 + " " + noun1 + " floating at the end of the hall near the cafeteria. "
+        textView6.text = "Some say if you " + verb1 + " down that hallway at night, you'll hear a " + animalName1+ " " + verbing1 + " " +
                 adverb1+ "."
-        textView7.text= " My " + adjective1 + "friend "+ personName1 + "saw a "+ adjective2 +" "+ noun2+ " "+ verbing2
-                "under one of the tables once."
-        textView8.text=" I hope I never see any " + pluralNoun1 + " "+ verbing3
+        textView7.text= " My " + adjective1 + " friend "+ personName1 + " saw a "+ adjective2 + " " + noun2+ " " + verbing2
+                " under one of the tables once."
+        textView8.text=" I hope I never see any " + pluralNoun1 + " " + verbing3 + "."
 
 
 

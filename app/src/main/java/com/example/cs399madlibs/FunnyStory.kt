@@ -82,7 +82,7 @@ class FunnyStory : AppCompatActivity() {
         textView4.text = "In the bank, you must do your homework and study " + adverb1 + "."
         textView5.text = "If you just sit around and " + verb1 +" ,you wont get ahead in life."
         textView6.text = "You must learn to pay attention to every " + adjective3 + " thing your teacher says"
-        textView7.text = "So when you teacher gives you a surprise quick, you will know all of the "+ pluralNoun2
+        textView7.text = "So when you teacher gives you a surprise quick, you will know all of the "+ pluralNoun2 + "."
 
 
 
