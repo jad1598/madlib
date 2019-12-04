@@ -6,161 +6,116 @@
     android:layout_height="match_parent"
     tools:context=".FunnyStory">
 
-    <TextView
-        android:id="@+id/funny_story_title"
-        android:layout_width="142dp"
-        android:layout_height="40dp"
-        android:text="Funny Story"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.022" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/FS_editText1"
-        android:layout_width="215dp"
-        android:layout_height="43dp"
-        android:layout_marginTop="24dp"
-        android:ems="10"
-        android:hint="Enter Pronoun"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.505"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/funny_story_title"
-        app:layout_constraintVertical_bias="0.0" />
+        <TextView
+            android:id="@+id/funny_story_title"
+            android:layout_width="335dp"
+            android:layout_height="40dp"
+            android:text="Funny Story"
+            android:textSize="25sp" />
 
-    <EditText
-        android:id="@+id/FS_editText2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter "
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText1"
-        app:layout_constraintVertical_bias="0.029" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/FS_editText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText2"
-        app:layout_constraintVertical_bias="0.045" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
 
-    <EditText
-        android:id="@+id/FS_editText4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText3"
-        app:layout_constraintVertical_bias="0.053" />
+                <EditText
+                    android:id="@+id/FS_editText1"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="24dp"
+                    android:ems="10"
+                    android:hint="Enter Pronoun"
+                    android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/FS_editText5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText4"
-        app:layout_constraintVertical_bias="0.066" />
+                <EditText
+                    android:id="@+id/FS_editText2"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter "
+                    android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/FS_editText6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText5"
-        app:layout_constraintVertical_bias="0.058" />
+                <EditText
+                    android:id="@+id/FS_editText3"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/FS_editText7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText6"
-        app:layout_constraintVertical_bias="0.065" />
+                <EditText
+                    android:id="@+id/FS_editText4"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/FS_editText8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText7"
-        app:layout_constraintVertical_bias="0.084" />
+                <EditText
+                    android:id="@+id/FS_editText5"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/FS_editText9"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText8"
-        app:layout_constraintVertical_bias="0.229" />
+                <EditText
+                    android:id="@+id/FS_editText6"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
 
-    <EditText
-        android:id="@+id/FS_editText10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:hint="Enter"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.208"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText9"
-        app:layout_constraintVertical_bias="0.465" />
+                <EditText
+                    android:id="@+id/FS_editText7"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
 
-    <Button
-        android:id="@+id/FS_submit_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/submit"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.553"
-        app:layout_constraintStart_toEndOf="@+id/FS_editText10"
-        app:layout_constraintTop_toBottomOf="@+id/FS_editText9"
-        app:layout_constraintVertical_bias="0.442" />
+                <EditText
+                    android:id="@+id/FS_editText8"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FS_editText9"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/FS_editText10"
+                    android:layout_width="335dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="Enter"
+                    android:inputType="textPersonName" />
+
+                <Button
+                    android:id="@+id/FS_submit_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submit" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
