@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CS399 Mad Libs</string>
+    <string name="select_your_madlib">Select Your MadLib</string>
+    <string name="scary">Scary</string>
+    <string name="scary_story">Scary Story</string>
+    <string name="funny">Funny</string>
+    <string name="submit">Submit</string>
+    <string name="title_activity_funny_story">FunnyStory</string>
+</resources>
