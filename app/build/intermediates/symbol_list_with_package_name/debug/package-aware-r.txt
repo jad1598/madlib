@@ -1197,6 +1197,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id funny_madlib_label
 id funny_story
 id funny_story_title
 id ghost_view
