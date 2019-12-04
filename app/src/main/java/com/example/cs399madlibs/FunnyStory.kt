@@ -77,7 +77,7 @@ class FunnyStory : AppCompatActivity() {
         textView.text = " " + adjective1 + " teachers always give out " + adjective2 + " assignments" +"."
         textView2.text =" But as everyone knows, if you want to pass all " + pronoun1 + " classes, you can go to a/an " + noun1+
                 " and become president of a big International "+ noun2 + "."
-        textView3.text = "Which you will have millions of " + pluralNoun1+ "."
+        textView3.text = "Then, you'll have millions of " + pluralNoun1+ "."
         textView4.text = "In the bank, you must do your homework and study " + adverb1 + "."
         textView5.text = "If you just sit around and " + verb1 +" ,you wont get ahead in life."
         textView6.text = "You must learn to pay attention to every " + adjective3 + " thing your teacher says"
