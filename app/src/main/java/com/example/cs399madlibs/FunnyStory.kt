@@ -65,6 +65,7 @@ class FunnyStory : AppCompatActivity() {
     fun display (adjective1: String,adjective2 : String,pronoun1 : String,noun1 :String,noun2:String,pluralNoun1:String,
                  adverb1:String ,verb1: String ,adjective3 : String,pluralNoun2: String){
 
+        val funny_madlib = findViewById<View>(R.id.funny_madlib_label) as TextView
         val textView = findViewById<View>(R.id.textView) as TextView
         val textView2 = findViewById<View>(R.id.textView2) as TextView
         val textView3 = findViewById<View>(R.id.textView3) as TextView
@@ -73,13 +74,14 @@ class FunnyStory : AppCompatActivity() {
         val textView6 = findViewById<View>(R.id.textView6) as TextView
         val textView7 = findViewById<View>(R.id.textView7) as TextView
 
-        textView.text = " " + adjective1 + " teachers always give out " + adjective2 + "assingments" +"."
-        textView2.text =" But as everyone knows, if you want to pass all your " + pronoun1 + "classes, you can go to a/an " + noun1+
-                "become president of a big International "+ noun2 + "."
-        textView3.text = "Which you will have millions of " + pluralNoun1+ "."
-        textView4.text = "In the bank, you must do your homework and study" + adverb1 + "."
+        funny_madlib.text = "Your Funny MadLib"
+        textView.text = " " + adjective1 + " teachers always give out " + adjective2 + " assignments" +"."
+        textView2.text =" But as everyone knows, if you want to pass all " + pronoun1 + " classes, you can go to a/an " + noun1+
+                " and become president of a big International "+ noun2 + "."
+        textView3.text = "Then, you'll have millions of " + pluralNoun1+ "."
+        textView4.text = "In the bank, you must do your homework and study " + adverb1 + "."
         textView5.text = "If you just sit around and " + verb1 +" ,you wont get ahead in life."
-        textView6.text = "You must learn to pay attention to every" + adjective3 + "thing your teacher says"
+        textView6.text = "You must learn to pay attention to every " + adjective3 + " thing your teacher says"
         textView7.text = "So when you teacher gives you a surprise quick, you will know all of the "+ pluralNoun2
 
 
